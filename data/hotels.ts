@@ -8,6 +8,11 @@ export interface StaticHotel {
   location: string
   bookingLink: string
   featured?: boolean
+  contact: {
+    phone: string
+    email: string
+    address: string
+  }
 }
 
 // Örnek veri: Buradaki alanları kendi otel bilgileriniz ve görsel URL'lerinizle güncelleyebilirsiniz.
@@ -32,6 +37,11 @@ export const HOTELS: StaticHotel[] = [
     location: 'Şişli, İstanbul',
     bookingLink: 'https://www.orneksite.com/rezervasyon/hotel-1',
     featured: true,
+    contact: {
+      phone: '+90 (212) 123 45 67',
+      email: 'info@parkotel.com',
+      address: 'Atatürk Mahallesi, Park Caddesi No:123, Şişli, İstanbul, Türkiye',
+    },
   },
   {
     id: 'hotel-2',
@@ -46,6 +56,11 @@ export const HOTELS: StaticHotel[] = [
     location: 'Kadıköy, İstanbul',
     bookingLink: 'https://www.orneksite.com/rezervasyon/hotel-2',
     featured: false,
+    contact: {
+      phone: '+90 (212) 123 45 67',
+      email: 'info@parkotel.com',
+      address: 'Atatürk Mahallesi, Park Caddesi No:123, Şişli, İstanbul, Türkiye',
+    },
   },
 ]
 
