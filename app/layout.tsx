@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXTAUTH_URL || 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000'),
   openGraph: {
     type: 'website',
     locale: 'tr_TR',
@@ -54,7 +54,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const baseUrl = process.env.NEXTAUTH_URL || 'http://localhost:3000'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000')
   
   const organizationSchema = {
     '@context': 'https://schema.org',
