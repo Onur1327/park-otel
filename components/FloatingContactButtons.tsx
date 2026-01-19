@@ -6,8 +6,8 @@ import { useState } from 'react'
 export default function FloatingContactButtons() {
   const [isExpanded, setIsExpanded] = useState(false)
 
-  const phoneNumber = '+902121234567'
-  const whatsappNumber = '905551234567'
+  const phoneNumber = '+903523208384'
+  const whatsappNumber = '905325183022'
   const instagramUrl = 'https://www.instagram.com/parkotel'
 
   return (

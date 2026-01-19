@@ -74,7 +74,7 @@ export default function RootLayout({
       '@type': 'ContactPoint',
       telephone: '+90-212-123-45-67',
       contactType: 'customer service',
-      email: 'info@parkotel.com',
+      email: 'info@kayseriparkotel.com',
     },
     priceRange: '$$',
     starRating: {

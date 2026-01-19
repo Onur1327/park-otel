@@ -39,7 +39,7 @@ export const HOTELS: StaticHotel[] = [
     featured: true,
     contact: {
       phone: '+90 (212) 123 45 67',
-      email: 'info@parkotel.com',
+    email: 'info@kayseriparkotel.com',
       address: 'Atatürk Mahallesi, Park Caddesi No:123, Şişli, İstanbul, Türkiye',
     },
   },
@@ -58,7 +58,7 @@ export const HOTELS: StaticHotel[] = [
     featured: false,
     contact: {
       phone: '+90 (212) 123 45 67',
-      email: 'info@parkotel.com',
+    email: 'info@kayseriparkotel.com',
       address: 'Atatürk Mahallesi, Park Caddesi No:123, Şişli, İstanbul, Türkiye',
     },
   },

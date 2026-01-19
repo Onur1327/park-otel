@@ -199,9 +199,34 @@ export default function PrivacyPage() {
                 talepleriniz için bizimle iletişime geçebilirsiniz:
               </p>
               <div className="space-y-2 text-gray-700">
-                <p><strong>E-posta:</strong> <a href="mailto:info@parkotel.com" className="text-primary-600 hover:text-primary-700">info@parkotel.com</a></p>
-                <p><strong>Telefon:</strong> <a href="tel:+902121234567" className="text-primary-600 hover:text-primary-700">+90 (212) 123 45 67</a></p>
-                <p><strong>Adres:</strong> Atatürk Mahallesi, Park Caddesi No:123, Şişli, İstanbul</p>
+                <p>
+                  <strong>E-posta:</strong>{' '}
+                  <a
+                    href="mailto:info@kayseriparkotel.com"
+                    className="text-primary-600 hover:text-primary-700"
+                  >
+                    info@kayseriparkotel.com
+                  </a>
+                </p>
+                <p>
+                  <strong>Telefon:</strong>{' '}
+                  <a
+                    href="tel:+903523208384"
+                    className="text-primary-600 hover:text-primary-700"
+                  >
+                    0 352 320 83 84
+                  </a>{' '}
+                  /{' '}
+                  <a
+                    href="tel:+905325183022"
+                    className="text-primary-600 hover:text-primary-700"
+                  >
+                    +90 532 518 30 22
+                  </a>
+                </p>
+                <p>
+                  <strong>Adres:</strong> Gülük, Osman Kavuncu Blv. No:79, 38260 Melikgazi / Kayseri
+                </p>
               </div>
             </div>
           </section>

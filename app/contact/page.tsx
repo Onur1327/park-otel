@@ -207,8 +207,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Adres</h3>
                     <p className="text-gray-600">
-                      Atatürk Mahallesi, Park Caddesi No:123<br />
-                      Şişli, İstanbul, Türkiye
+                      Gülük, Osman Kavuncu Blv. No:79<br />
+                      38260 Melikgazi / Kayseri
                     </p>
                   </div>
                 </div>
@@ -220,12 +220,12 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Telefon</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+902121234567" className="hover:text-primary-600 transition-colors">
-                        +90 (212) 123 45 67
+                      <a href="tel:+903523208384" className="hover:text-primary-600 transition-colors">
+                        0 352 320 83 84
                       </a>
                       <br />
-                      <a href="tel:+905551234567" className="hover:text-primary-600 transition-colors">
-                        +90 (555) 123 45 67
+                      <a href="tel:+905325183022" className="hover:text-primary-600 transition-colors">
+                        +90 532 518 30 22
                       </a>
                     </p>
                   </div>
@@ -238,12 +238,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">E-posta</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@parkotel.com" className="hover:text-primary-600 transition-colors">
-                        info@parkotel.com
-                      </a>
-                      <br />
-                      <a href="mailto:rezervasyon@parkotel.com" className="hover:text-primary-600 transition-colors">
-                        rezervasyon@parkotel.com
+                      <a href="mailto:info@kayseriparkotel.com" className="hover:text-primary-600 transition-colors">
+                        info@kayseriparkotel.com
                       </a>
                     </p>
                   </div>

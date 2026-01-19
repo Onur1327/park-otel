@@ -58,15 +58,19 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-gray-400">
                 <Phone className="h-5 w-5" />
-                <span>+90 (212) 123 45 67</span>
+                <span>0 352 320 83 84</span>
+              </li>
+              <li className="flex items-center space-x-2 text-gray-400">
+                <Phone className="h-5 w-5" />
+                <span>+90 532 518 30 22</span>
               </li>
               <li className="flex items-center space-x-2 text-gray-400">
                 <Mail className="h-5 w-5" />
-                <span>info@parkotel.com</span>
+                <span>info@kayseriparkotel.com</span>
               </li>
               <li className="flex items-center space-x-2 text-gray-400">
                 <MapPin className="h-5 w-5" />
-                <span>İstanbul, Türkiye</span>
+                <span>Gülük, Osman Kavuncu Blv. No:79, 38260 Melikgazi / Kayseri</span>
               </li>
             </ul>
           </div>
@@ -78,8 +82,8 @@ export default function Footer() {
             </h3>
             <div className="space-y-3">
               <p className="text-gray-400 text-sm leading-relaxed">
-                Atatürk Mahallesi, Park Caddesi No:123<br />
-                Şişli, İstanbul, Türkiye
+                Gülük, Osman Kavuncu Blv. No:79<br />
+                38260 Melikgazi / Kayseri
               </p>
               <div className="bg-gray-800 rounded-lg overflow-hidden h-48 border border-gray-700">
                 <iframe
