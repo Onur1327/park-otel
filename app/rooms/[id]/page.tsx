@@ -5,6 +5,7 @@ import { Bed, Users, Square, ArrowLeft, ArrowRight } from 'lucide-react'
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import { siteConfig } from '@/config/site'
+import RoomImageGallery from '@/components/RoomImageGallery'
 
 interface PageProps {
   params: Promise<{
@@ -57,37 +58,7 @@ export default async function RoomDetailPage({ params }: PageProps) {
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           {/* Image Gallery */}
           {room.images && room.images.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-2">
-              <div className="relative h-96 md:h-[500px] md:col-span-2 rounded-lg overflow-hidden">
-                <Image
-                  src={room.images[0]}
-                  alt={room.name}
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 768px) 100vw, 100vw"
-                  quality={90}
-                  unoptimized={room.images[0]?.startsWith('http') && !room.images[0]?.includes('localhost')}
-                />
-              </div>
-              {room.images.length > 1 && (
-                <>
-                  {room.images.slice(1, 3).map((image: string, index: number) => (
-                    <div key={index} className="relative h-48 md:h-[244px] rounded-lg overflow-hidden">
-                      <Image
-                        src={image}
-                        alt={`${room.name} - Görsel ${index + 2}`}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 50vw"
-                        quality={85}
-                        unoptimized={image?.startsWith('http') && !image?.includes('localhost')}
-                      />
-                    </div>
-                  ))}
-                </>
-              )}
-            </div>
+            <RoomImageGallery images={room.images} roomName={room.name} />
           ) : (
             <div className="relative h-96 md:h-[500px]">
               <div className="w-full h-full bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
@@ -151,27 +122,6 @@ export default async function RoomDetailPage({ params }: PageProps) {
               </div>
             )}
 
-            {/* Additional Images */}
-            {room.images && room.images.length > 3 && (
-              <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Galeri</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                  {room.images.slice(3).map((image: string, index: number) => (
-                    <div key={index} className="relative h-48 rounded-lg overflow-hidden group cursor-pointer">
-                      <Image
-                        src={image}
-                        alt={`${room.name} - Görsel ${index + 4}`}
-                        fill
-                        className="object-cover group-hover:scale-110 transition-transform duration-300"
-                        sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                        quality={85}
-                        unoptimized={image?.startsWith('http') && !image?.includes('localhost')}
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
 
             {/* Reservation Button */}
             <div className="mt-8 pt-8 border-t border-gray-200">
