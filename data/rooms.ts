@@ -22,7 +22,11 @@ export const ROOMS: StaticRoom[] = [
     description:
       'Modern tasarımlı, şehir manzaralı standart odamız konforlu bir konaklama için idealdir.',
     shortDescription: 'Modern ve konforlu standart oda.',
-    images: [],
+    images: [
+      '/standartoda1.jpeg.jpeg',
+      '/standartoda2.jpeg.jpeg',
+      '/standartoda3.jpeg.jpeg',
+    ],
     price: 1500,
     size: '25 m²',
     capacity: 2,
@@ -52,7 +56,11 @@ export const ROOMS: StaticRoom[] = [
     description:
       'Rahat ve şık tasarımlı standart odamız, konforlu bir konaklama deneyimi sunar.',
     shortDescription: 'Rahat ve şık standart oda.',
-    images: [],
+    images: [
+      '/standartoda4.jpeg.jpeg',
+      '/standartoda5.jpeg.jpeg',
+      '/standartoda6.jpeg.jpeg',
+    ],
     price: 1500,
     size: '25 m²',
     capacity: 2,
