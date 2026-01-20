@@ -36,9 +36,9 @@ export const ROOMS: StaticRoom[] = [
       'Aileler için düşünülmüş, geniş yatak seçenekleri ve ekstra alan sunan oda.',
     shortDescription: 'Aileler için geniş standart oda.',
     images: [
-      '/aileodası1.jpeg',
-      '/aileodası.jpeg',
-      '/aileodası2.jpeg',
+      '/aileodasi1.jpeg.jpeg',
+      '/aileodasi.jpeg.jpeg',
+      '/aileodasi2.jpeg.jpeg',
     ],
     price: 2200,
     size: '35 m²',
