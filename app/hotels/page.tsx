@@ -6,10 +6,10 @@ import { HOTELS } from '@/data/hotels'
 
 export const metadata: Metadata = {
   title: 'Tüm Otellerimiz',
-  description: 'Park Otel\'in tüm otellerini keşfedin. Size en uygun konaklama seçeneğini bulun.',
+  description: 'Park Hotel\'in tüm otellerini keşfedin. Size en uygun konaklama seçeneğini bulun.',
   keywords: ['otel', 'konaklama', 'rezervasyon', 'istanbul otel'],
   openGraph: {
-    title: 'Tüm Otellerimiz | Park Otel',
+    title: 'Tüm Otellerimiz | Park Hotel',
     description: 'Size en uygun konaklama seçeneğini bulun',
     type: 'website',
   },

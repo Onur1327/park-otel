@@ -1,4 +1,4 @@
-# Park Otel - Otel Tanıtım Sitesi
+# Park Hotel - Otel Tanıtım Sitesi
 
 Modern ve kullanışlı bir otel tanıtım sitesi. React.js, Next.js, TypeScript ve MongoDB kullanılarak geliştirilmiştir.
 

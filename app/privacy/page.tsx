@@ -4,7 +4,7 @@ import { Shield, Lock, Eye, Cookie, FileText, ArrowLeft } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası',
-  description: 'Park Otel gizlilik politikası. Kişisel verilerinizin korunması bizim için önemlidir.',
+  description: 'Park Hotel gizlilik politikası. Kişisel verilerinizin korunması bizim için önemlidir.',
   robots: {
     index: true,
     follow: true,
@@ -43,7 +43,7 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-bold text-gray-900">Giriş</h2>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Park Otel olarak, ziyaretçilerimizin ve müşterilerimizin kişisel verilerinin 
+              Park Hotel olarak, ziyaretçilerimizin ve müşterilerimizin kişisel verilerinin 
               korunmasına büyük önem vermekteyiz. Bu Gizlilik Politikası, web sitemizi 
               ziyaret ettiğinizde veya hizmetlerimizi kullandığınızda topladığımız bilgilerin 
               nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır.

@@ -11,14 +11,14 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Park Otel - Lüks Konaklama Deneyimi',
-    template: '%s | Park Otel',
+    default: 'Park Hotel - Lüks Konaklama Deneyimi',
+    template: '%s | Park Hotel',
   },
-  description: 'Park Otel ile unutulmaz bir konaklama deneyimi yaşayın. Modern odalar, lüks suite seçenekleri ve mükemmel hizmet anlayışıyla sizleri ağırlıyoruz.',
+  description: 'Park Hotel ile unutulmaz bir konaklama deneyimi yaşayın. Modern odalar, lüks suite seçenekleri ve mükemmel hizmet anlayışıyla sizleri ağırlıyoruz.',
   keywords: ['otel', 'konaklama', 'rezervasyon', 'lüks otel', 'istanbul otel', 'suite oda', 'standart oda'],
-  authors: [{ name: 'Park Otel' }],
-  creator: 'Park Otel',
-  publisher: 'Park Otel',
+  authors: [{ name: 'Park Hotel' }],
+  creator: 'Park Hotel',
+  publisher: 'Park Hotel',
   formatDetection: {
     email: false,
     address: false,
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'tr_TR',
     url: '/',
-    siteName: 'Park Otel',
-    title: 'Park Otel - Lüks Konaklama Deneyimi',
-    description: 'Park Otel ile unutulmaz bir konaklama deneyimi yaşayın',
+    siteName: 'Park Hotel',
+    title: 'Park Hotel - Lüks Konaklama Deneyimi',
+    description: 'Park Hotel ile unutulmaz bir konaklama deneyimi yaşayın',
   },
   robots: {
     index: true,
@@ -59,8 +59,8 @@ export default function RootLayout({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Hotel',
-    name: 'Park Otel',
-    description: 'Park Otel ile unutulmaz bir konaklama deneyimi yaşayın. Modern odalar, lüks suite seçenekleri ve mükemmel hizmet anlayışıyla sizleri ağırlıyoruz.',
+    name: 'Park Hotel',
+    description: 'Park Hotel ile unutulmaz bir konaklama deneyimi yaşayın. Modern odalar, lüks suite seçenekleri ve mükemmel hizmet anlayışıyla sizleri ağırlıyoruz.',
     url: baseUrl,
     logo: `${baseUrl}/logo.png`,
     address: {

@@ -7,10 +7,10 @@ import { ROOMS } from '@/data/rooms'
 
 export const metadata: Metadata = {
   title: 'Ana Sayfa',
-  description: 'Park Otel ile unutulmaz bir konaklama deneyimi yaşayın. Modern odalar, lüks suite seçenekleri ve mükemmel hizmet anlayışıyla sizleri ağırlıyoruz.',
+  description: 'Park Hotel ile unutulmaz bir konaklama deneyimi yaşayın. Modern odalar, lüks suite seçenekleri ve mükemmel hizmet anlayışıyla sizleri ağırlıyoruz.',
   openGraph: {
-    title: 'Park Otel - Lüks Konaklama Deneyimi',
-    description: 'Park Otel ile unutulmaz bir konaklama deneyimi yaşayın',
+    title: 'Park Hotel - Lüks Konaklama Deneyimi',
+    description: 'Park Hotel ile unutulmaz bir konaklama deneyimi yaşayın',
     type: 'website',
   },
 }

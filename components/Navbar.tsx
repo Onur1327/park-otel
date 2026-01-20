@@ -34,9 +34,9 @@ export default function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50" role="navigation" aria-label="Ana navigasyon" itemScope itemType="https://schema.org/SiteNavigationElement">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link href="/" className="flex items-center space-x-2" aria-label="Ana Sayfa - Park Otel">
+          <Link href="/" className="flex items-center space-x-2" aria-label="Ana Sayfa - Park Hotel">
             <Hotel className="h-10 w-10 text-primary-600" aria-hidden="true" />
-            <span className="text-3xl font-bold text-primary-600">Park Otel</span>
+            <span className="text-3xl font-bold text-primary-600">Park Hotel</span>
           </Link>
 
           {/* Desktop Menu */}

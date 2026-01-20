@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Hotel className="h-8 w-8 text-primary-400" />
-              <span className="text-2xl font-bold">Park Otel</span>
+              <span className="text-2xl font-bold">Park Hotel</span>
             </div>
             <p className="text-gray-400">
               Lüks konaklama deneyimi için tercihiniz. Unutulmaz anılar biriktirin.
@@ -111,7 +111,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Park Otel. Tüm hakları saklıdır.</p>
+          <p>&copy; {new Date().getFullYear()} Park Hotel. Tüm hakları saklıdır.</p>
         </div>
       </div>
     </footer>

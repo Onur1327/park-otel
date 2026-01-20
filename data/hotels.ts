@@ -19,9 +19,9 @@ export interface StaticHotel {
 export const HOTELS: StaticHotel[] = [
   {
     id: 'hotel-1',
-    name: 'Park Otel Merkez',
+    name: 'Park Hotel Merkez',
     description:
-      'Şehrin kalbinde yer alan Park Otel Merkez, modern tasarımı ve konforlu odalarıyla misafirlerine unutulmaz bir konaklama deneyimi sunar.',
+      'Şehrin kalbinde yer alan Park Hotel Merkez, modern tasarımı ve konforlu odalarıyla misafirlerine unutulmaz bir konaklama deneyimi sunar.',
     shortDescription: 'Şehrin kalbinde modern ve konforlu otel.',
     images: [
       'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80',
@@ -45,9 +45,9 @@ export const HOTELS: StaticHotel[] = [
   },
   {
     id: 'hotel-2',
-    name: 'Park Otel Deniz',
+    name: 'Park Hotel Deniz',
     description:
-      'Deniz manzaralı odaları ve sakin atmosferiyle Park Otel Deniz, tatil ve iş seyahatleri için ideal bir seçenektir.',
+      'Deniz manzaralı odaları ve sakin atmosferiyle Park Hotel Deniz, tatil ve iş seyahatleri için ideal bir seçenektir.',
     shortDescription: 'Deniz manzaralı, sakin ve huzurlu otel.',
     images: [
       'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80',

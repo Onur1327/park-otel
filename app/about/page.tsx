@@ -3,11 +3,11 @@ import { Hotel, Award, Users, Heart, Shield, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Hakkımızda',
-  description: 'Park Otel hakkında bilgi edinin. Misyonumuz, vizyonumuz ve değerlerimiz hakkında daha fazla bilgi.',
+  description: 'Park Hotel hakkında bilgi edinin. Misyonumuz, vizyonumuz ve değerlerimiz hakkında daha fazla bilgi.',
   keywords: ['hakkımızda', 'otel hakkında', 'misyon', 'vizyon', 'değerler'],
   openGraph: {
-    title: 'Hakkımızda | Park Otel',
-    description: 'Park Otel olarak misafirlerimize en iyi hizmeti sunmak için buradayız',
+    title: 'Hakkımızda | Park Hotel',
+    description: 'Park Hotel olarak misafirlerimize en iyi hizmeti sunmak için buradayız',
     type: 'website',
   },
 }
@@ -57,7 +57,7 @@ export default function AboutPage() {
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Hakkımızda</h1>
             <p className="text-xl md:text-2xl text-primary-100 max-w-3xl mx-auto">
-              Park Otel olarak misafirlerimize en iyi hizmeti sunmak için buradayız
+              Park Hotel olarak misafirlerimize en iyi hizmeti sunmak için buradayız
             </p>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Park Otel, yılların deneyimi ve misafirperverlik anlayışıyla kurulmuş, 
+                  Park Hotel, yılların deneyimi ve misafirperverlik anlayışıyla kurulmuş, 
                   Türkiye'nin önde gelen otel zincirlerinden biridir. Misafirlerimize 
                   unutulmaz bir konaklama deneyimi sunmak için sürekli kendimizi 
                   geliştiriyor ve yeniliyoruz.

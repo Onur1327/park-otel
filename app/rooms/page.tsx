@@ -7,10 +7,10 @@ import { siteConfig } from '@/config/site'
 
 export const metadata: Metadata = {
   title: 'Odalarımız',
-  description: 'Park Otel\'in konforlu standart ve lüks suite odalarını keşfedin. Modern tasarım, geniş alanlar ve tüm konforlar.',
+  description: 'Park Hotel\'in konforlu standart ve lüks suite odalarını keşfedin. Modern tasarım, geniş alanlar ve tüm konforlar.',
   keywords: ['otel odaları', 'standart oda', 'suite oda', 'konaklama', 'rezervasyon'],
   openGraph: {
-    title: 'Odalarımız | Park Otel',
+    title: 'Odalarımız | Park Hotel',
     description: 'Konforlu ve şık odalarımızda unutulmaz bir konaklama deneyimi yaşayın',
     type: 'website',
   },

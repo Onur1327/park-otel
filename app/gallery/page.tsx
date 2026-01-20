@@ -5,10 +5,10 @@ import { GALLERY_CATEGORIES } from '@/data/gallery'
 
 export const metadata: Metadata = {
   title: 'Galeri',
-  description: 'Park Otel\'in farklı bölümlerinden görseller. Odalarımız, tesislerimiz ve hizmetlerimiz hakkında görsel bir tur.',
+  description: 'Park Hotel\'in farklı bölümlerinden görseller. Odalarımız, tesislerimiz ve hizmetlerimiz hakkında görsel bir tur.',
   keywords: ['galeri', 'otel görselleri', 'oda görselleri', 'tesis görselleri'],
   openGraph: {
-    title: 'Galeri | Park Otel',
+    title: 'Galeri | Park Hotel',
     description: 'Otelimizin farklı bölümlerinden görseller',
     type: 'website',
   },

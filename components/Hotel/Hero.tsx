@@ -70,7 +70,7 @@ export default function Hero({ carouselImages }: HeroProps) {
           >
             <Image
               src={image}
-              alt={`Park Otel - ${index === 0 ? 'Ana görsel' : `Galeri görseli ${index + 1}`}`}
+              alt={`Park Hotel - ${index === 0 ? 'Ana görsel' : `Galeri görseli ${index + 1}`}`}
               fill
               className="object-cover"
               priority={index === 0}
@@ -122,7 +122,7 @@ export default function Hero({ carouselImages }: HeroProps) {
       <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
         <div className="text-center px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
-            Park Otel'e Hoş Geldiniz
+            Park Hotel'e Hoş Geldiniz
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto drop-shadow-md">
             Lüks konaklama deneyimi ve unutulmaz anılar için ideal adresiniz

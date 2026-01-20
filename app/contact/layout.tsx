@@ -2,10 +2,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'İletişim',
-  description: 'Park Otel ile iletişime geçin. Sorularınız, önerileriniz veya rezervasyon talepleriniz için bizimle iletişime geçin.',
+  description: 'Park Hotel ile iletişime geçin. Sorularınız, önerileriniz veya rezervasyon talepleriniz için bizimle iletişime geçin.',
   keywords: ['iletişim', 'rezervasyon', 'otel iletişim', 'adres', 'telefon'],
   openGraph: {
-    title: 'İletişim | Park Otel',
+    title: 'İletişim | Park Hotel',
     description: 'Sorularınız, önerileriniz veya rezervasyon talepleriniz için bizimle iletişime geçin',
     type: 'website',
   },

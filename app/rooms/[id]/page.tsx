@@ -24,11 +24,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `${room.name} | Park Otel`,
+    title: `${room.name} | Park Hotel`,
     description: room.description || room.shortDescription,
     keywords: ['otel odası', room.name, 'rezervasyon', 'konaklama'],
     openGraph: {
-      title: `${room.name} | Park Otel`,
+      title: `${room.name} | Park Hotel`,
       description: room.description || room.shortDescription,
       images: room.images && room.images.length > 0 ? [room.images[0]] : [],
       type: 'website',
