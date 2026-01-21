@@ -45,7 +45,7 @@ export default async function RoomDetailPage({ params }: PageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Link
           href="/rooms"
@@ -79,7 +79,7 @@ export default async function RoomDetailPage({ params }: PageProps) {
             </div>
 
             {/* Room Info */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 p-6 bg-gray-50 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 p-6 bg-white/10 rounded-lg">
               <div className="flex items-center space-x-3">
                 <Users className="h-6 w-6 text-primary-600" />
                 <div>

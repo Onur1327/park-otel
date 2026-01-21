@@ -19,7 +19,7 @@ export default async function HotelDetailPage({ params }: PageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Link
           href="/hotels"
@@ -59,7 +59,7 @@ export default async function HotelDetailPage({ params }: PageProps) {
             </div>
 
             {/* Contact Information */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 p-6 bg-gray-50 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 p-6 bg-white/10 rounded-lg">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary-600" />
                 <div>

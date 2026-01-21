@@ -20,7 +20,7 @@ export default function RoomsPage() {
   const standardRooms = ROOMS.filter((room) => room.type === 'standard')
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
