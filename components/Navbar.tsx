@@ -38,7 +38,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-2" aria-label="Ana Sayfa - Park Hotel">
             <div className="relative h-10 w-10">
               <Image
-                src="/park-otel-logo.jpeg"
+                src="/parkotelyenilogo.png"
                 alt="Park Hotel logo"
                 fill
                 className="object-contain"

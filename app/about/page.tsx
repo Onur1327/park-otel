@@ -93,7 +93,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl bg-black flex items-center justify-center">
               <Image
-                src="/park-otel-logo.jpeg"
+                src="/parkotelyenilogo.png"
                 alt="Park Otel logo"
                 width={320}
                 height={320}
