@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import { Hotel, Award, Users, Heart, Shield, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -90,10 +91,15 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
-                <Hotel className="h-32 w-32 text-white opacity-50" />
-              </div>
+            <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl bg-black flex items-center justify-center">
+              <Image
+                src="/park-otel-logo.png"
+                alt="Park Otel logo"
+                width={320}
+                height={320}
+                className="object-contain"
+                priority
+              />
             </div>
           </div>
         </div>
