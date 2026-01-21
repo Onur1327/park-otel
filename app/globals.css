@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html,
   body {
+    /* Metin rengi */
     @apply text-gray-900;
     /* Site genel arka plan rengi - kartvizitteki mavi tona yakın özel renk */
     background-color: #0b3b52;
