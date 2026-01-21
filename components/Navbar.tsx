@@ -1,8 +1,9 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { Hotel, Menu, X, Calendar } from 'lucide-react'
+import { Menu, X, Calendar } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 export default function Navbar() {
@@ -35,7 +36,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center space-x-2" aria-label="Ana Sayfa - Park Hotel">
-            <Hotel className="h-10 w-10 text-primary-600" aria-hidden="true" />
+            <div className="relative h-10 w-10">
+              <Image
+                src="/park-otel-logo.jpeg"
+                alt="Park Hotel logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
             <span className="text-3xl font-bold text-primary-600">Park Hotel</span>
           </Link>
 
