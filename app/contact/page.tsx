@@ -258,9 +258,12 @@ export default function ContactPage() {
 
               {/* Map Placeholder */}
               <div className="bg-gray-200 rounded-xl h-64 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <MapPin className="h-12 w-12 mx-auto mb-2 opacity-50" />
-                  <p>Harita buraya eklenecek</p>
+                <div className="text-center text-gray-700">
+                  <MapPin className="h-12 w-12 mx-auto mb-2 opacity-70 text-primary-600" />
+                  <p className="font-semibold">
+                    Gülük, Osman Kavuncu Blv. No:79
+                  </p>
+                  <p>38260 Melikgazi / Kayseri</p>
                 </div>
               </div>
             </div>
