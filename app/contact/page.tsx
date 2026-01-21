@@ -254,19 +254,6 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="bg-primary-100 p-3 rounded-lg">
-                    <Clock className="h-6 w-6 text-primary-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-white mb-1">Çalışma Saatleri</h3>
-                    <p className="text-gray-100">
-                      Pazartesi - Cuma: 09:00 - 18:00<br />
-                      Cumartesi: 10:00 - 16:00<br />
-                      Pazar: Kapalı
-                    </p>
-                  </div>
-                </div>
               </div>
 
               {/* Map Placeholder */}
