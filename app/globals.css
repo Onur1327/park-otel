@@ -7,8 +7,8 @@
   body {
     /* Metin rengi */
     @apply text-gray-900;
-    /* Site genel arka plan rengi - kartvizitteki mavi tona yakın özel renk */
-    background-color: #0b3b52;
+    /* Site genel arka plan rengi - kartvizitteki mavi tona yakın, biraz daha mat koyu mavi */
+    background-color: #0a3545;
   }
   
   /* Screen reader only - erişilebilirlik için */
