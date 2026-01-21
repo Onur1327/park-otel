@@ -197,7 +197,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">İletişim Bilgileri</h2>
+              <h2 className="text-3xl font-bold text-white mb-8">İletişim Bilgileri</h2>
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-start space-x-4">
@@ -205,8 +205,8 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-primary-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Adres</h3>
-                    <p className="text-gray-600">
+                    <h3 className="font-semibold text-white mb-1">Adres</h3>
+                    <p className="text-gray-100">
                       Gülük, Osman Kavuncu Blv. No:79<br />
                       38260 Melikgazi / Kayseri
                     </p>
@@ -218,13 +218,19 @@ export default function ContactPage() {
                     <Phone className="h-6 w-6 text-primary-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Telefon</h3>
-                    <p className="text-gray-600">
-                      <a href="tel:+903523208384" className="hover:text-primary-600 transition-colors">
+                    <h3 className="font-semibold text-white mb-1">Telefon</h3>
+                    <p className="text-gray-100">
+                      <a
+                        href="tel:+903523208384"
+                        className="text-gray-100 hover:text-white transition-colors"
+                      >
                         0 352 320 83 84
                       </a>
                       <br />
-                      <a href="tel:+905325183022" className="hover:text-primary-600 transition-colors">
+                      <a
+                        href="tel:+905325183022"
+                        className="text-gray-100 hover:text-white transition-colors"
+                      >
                         +90 532 518 30 22
                       </a>
                     </p>
@@ -236,9 +242,12 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-primary-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">E-posta</h3>
-                    <p className="text-gray-600">
-                      <a href="mailto:info@kayseriparkotel.com" className="hover:text-primary-600 transition-colors">
+                    <h3 className="font-semibold text-white mb-1">E-posta</h3>
+                    <p className="text-gray-100">
+                      <a
+                        href="mailto:info@kayseriparkotel.com"
+                        className="text-gray-100 hover:text-white transition-colors"
+                      >
                         info@kayseriparkotel.com
                       </a>
                     </p>
@@ -250,8 +259,8 @@ export default function ContactPage() {
                     <Clock className="h-6 w-6 text-primary-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Çalışma Saatleri</h3>
-                    <p className="text-gray-600">
+                    <h3 className="font-semibold text-white mb-1">Çalışma Saatleri</h3>
+                    <p className="text-gray-100">
                       Pazartesi - Cuma: 09:00 - 18:00<br />
                       Cumartesi: 10:00 - 16:00<br />
                       Pazar: Kapalı
